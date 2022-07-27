@@ -1,0 +1,45 @@
+p{
+  padding-left: 890px;
+}
+
+h2{
+  color: gold;
+  font-size: 30px;
+  margin: 0 295px 40px;
+}
+
+span{
+  display: inline-block;
+  color: #2e49aa;
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 6em;
+  animation: type 2s steps(60, end) forwards;
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+img{
+  margin: 0 0 0 -40px;
+  width: 40px;
+  height: 45px;
+}
+
+.btn{
+  background-color: #1D2F6F;
+  font-size: 18px;
+  padding: 5px 25px 5px 25px;
+  color: white;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: 520px;
+}
+
+.btn:hover{
+  color: white;
+  transform: scale(1.2,1.2);
+  background-image: linear-gradient(to right, #26a0da 0%, #1b3caf 60%);
+}
